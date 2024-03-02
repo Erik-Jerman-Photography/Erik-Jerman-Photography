@@ -48,16 +48,12 @@
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: #fff;
+  -moz-text-fill-color: #fff;
   display: flex;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-}
-
-#navbar__logo {
-  display: flex;
   cursor: pointer;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -159,6 +155,9 @@
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 25px;
+    width: auto;
+    height: 100%;
+    background-image: url(slike/znak_bel_outline.png);
   }
 
   .navbar__toggle .prvi-meni {
