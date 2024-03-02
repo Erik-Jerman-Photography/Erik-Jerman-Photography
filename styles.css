@@ -1,3 +1,43 @@
+/* Chrome version 29 and above */
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  selector {
+    property: value;
+  }
+}
+
+/* Microsoft Edge */
+@supports (-ms-ime-align: auto) {
+  selector {
+    property: value;
+  }
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+  selector {
+    property: value;
+  }
+}
+
+/* Safari 11+ */
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    selector {
+      property: value;
+    }
+  }
+}
+/* Test website on real Safari 11+ */
+
+/* Safari 10.1 */
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (not (stroke-color: transparent)) {
+    selector {
+      property: value;
+    }
+  }
+}
+
 @font-face {
   font-family: "Aptos Display";
   src: url(font/aptos-display.ttf);
