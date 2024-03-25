@@ -471,6 +471,11 @@
     margin-top: 3rem;
   }
 
+  .main__content1 h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
   .main__content--trgovina h1 {
     font-size: 2rem;
     margin-top: 3rem;
@@ -481,6 +486,11 @@
   }
 
   .main__content p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .main__content1 p {
     margin-top: 2rem;
     font-size: 1.5rem;
   }
