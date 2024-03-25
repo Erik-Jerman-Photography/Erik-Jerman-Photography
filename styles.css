@@ -313,6 +313,18 @@
   -moz-text-fill-color: transparent;
 }
 
+.main__content1 h1 {
+  font-size: 3rem;
+  background-color: #1888ff;
+  background-image: linear-gradient(to top, #007bff 0%, #9ecdff 100%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
 .main__content h2 {
   font-size: 3rem;
   background-color: #1888ff;
@@ -328,6 +340,13 @@
 .main__content p {
   margin-top: 1rem;
   font-size: 2rem;
+  /* font-weight: bold; */
+  color: #fff;
+}
+
+.main__content1 p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
   /* font-weight: bold; */
   color: #fff;
 }
@@ -383,6 +402,8 @@
   border-radius: 6px;
   transition: 0.5s;
   box-shadow: none;
+  max-height: 70vh;
+  max-width: fit-content;
 }
 
 #main__slika:hover {
@@ -403,6 +424,11 @@
   }
 
   .main__content {
+    text-align: center;
+    margin-bottom: 2.3rem;
+  }
+
+  .main__content1 {
     text-align: center;
     margin-bottom: 2.3rem;
   }
